@@ -20,6 +20,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     self.textLabel.text = @"hello github";
+    self.textLabel.textColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning
