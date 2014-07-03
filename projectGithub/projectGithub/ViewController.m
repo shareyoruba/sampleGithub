@@ -21,6 +21,10 @@
     
     self.textLabel.text = @"hello github";
     self.textLabel.textColor = [UIColor redColor];
+    
+    self.secondLabel.text = @"this is second label";
+    self.secondLabel.textColor = [UIColor greenColor];
+    
 }
 
 - (void)didReceiveMemoryWarning

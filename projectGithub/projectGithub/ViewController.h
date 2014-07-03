@@ -10,5 +10,6 @@
 
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *textLabel;
+@property (strong, nonatomic) IBOutlet UILabel *secondLabel;
 
 @end
