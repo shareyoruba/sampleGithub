@@ -11,5 +11,6 @@
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *textLabel;
 @property (strong, nonatomic) IBOutlet UILabel *secondLabel;
+- (IBAction)redButton:(id)sender;
 
 @end
